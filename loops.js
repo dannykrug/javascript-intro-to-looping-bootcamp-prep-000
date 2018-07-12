@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if(i === 1) {
@@ -23,4 +24,11 @@ do {
 }
 while (array.length > 0 && maybeTrue());
 return array
+=======
+for (let i = 0; i < 25; i++) {
+  if(i = 1) 
+  return console.log('I am 1 strange loop.')
+  else
+  return console.log('I am ${i} strange loops.')
+>>>>>>> 8a0cbcb705e4413c19c58bfc964755a649b5b1cc
 }
